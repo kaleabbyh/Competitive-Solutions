@@ -10,9 +10,6 @@ dic = ['black',
        'white']
 
 
-def color_code(color):
-    return dic.index((color))
-
-
-def colors():
-    return dic
+def value(colors: list):
+    a, b, *c = colors
+    return int(str(dic.index(a))+str(dic.index(b)))
