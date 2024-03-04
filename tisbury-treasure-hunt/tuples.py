@@ -20,3 +20,8 @@ def create_record(azara_record, rui_record):
 def clean_up(combined_record_group):
 
     return "".join([f"{(record[0], record[2], record[3], record[4])}\n" for record in combined_record_group])
+
+
+# def clean_up(combined_record_group):
+
+#     return "".join([f"{(record[0], record[2], record[3], record[4])}\n" for record in combined_record_group])
